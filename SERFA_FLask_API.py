@@ -19,4 +19,5 @@ def predict():
         res = {"emotion": qwe}
         return jsonify(res)
 
+      
 if(__name__ == "__main__"):  app.run(debug=True, port=4000)
